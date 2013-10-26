@@ -6,29 +6,29 @@ Lasso Implementation of Modified Preorder Tree Transversal
 Member tags:
 ------------
 ```
-.addSibling
+.addSibling(...)
 // Adds an entry AFTER specified item, at the same depth
- 
-addChild
+
+.addChild(...)
 // Adds a child to the specified item.
 // Usually employed when there is no existing child.
- 
-deleteNode
+
+.deleteNode(...)
 // Self-descriptive... DELETES the node and all it's child nodes.
- 
-moveNode
+
+.moveNode(...)
 // Self-descriptive... MOVES the node and all it's child nodes in the specified direction.
  
-fullCatSQL
+.fullCatSQL(...)
 // Returns the SQL required to extract the full tree.
- 
-subTreeSQL
+
+.subTreeSQL(...)
 // Returns the SQL required to extract the tree branching from a specified node.
- 
-showPathSQL
+
+.showPathSQL(...)
 // Returns the SQL that will extract the linear path from the root to the node.
- 
-getParent
+
+.getParent(...)
 // Returns a map with the parent id and name
 ```
 
