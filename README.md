@@ -3,6 +3,17 @@ xs_cat
 
 Lasso Implementation of Modified Preorder Tree Transversal
 
+Usage note
+----------
+The methods require "$gv_sql" to be defined:
+``` lasso
+// Lasso 8:
+var('gv_sql' = array( -Database='mydb', -Username='iam', -Password='veryveryverysecret', -maxRecords='all'));
+
+// Lasso 9:
+var(gv_sql = array(-Database='mydb',maxRecords='all'))
+```
+
 Member tags:
 ------------
 ```
